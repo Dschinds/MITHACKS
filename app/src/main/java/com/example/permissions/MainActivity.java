@@ -52,6 +52,7 @@ public class MainActivity extends AppCompatActivity {
 
         if(ContextCompat.checkSelfPermission(MainActivity.this  , Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED
       && ContextCompat.checkSelfPermission(MainActivity.this  , Manifest.permission.CAMERA) == PackageManager.PERMISSION_GRANTED)  {
+            startActivity(new Intent(MainActivity.this,MapActivity.class));
             finish();
         }
 
