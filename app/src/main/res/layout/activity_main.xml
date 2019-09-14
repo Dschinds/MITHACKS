@@ -32,7 +32,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Graffiti app requires permission to access location"
+            android:text="Graffiti app requires permission to access location and camera"
             android:layout_marginTop="10dp"
             android:gravity="center"></TextView>
     </LinearLayout>
